@@ -1,4 +1,4 @@
 
 rootProject.name = "Google-Pay-Library"
 include ':app'
-include ':Subscription Helper'
+include ':SubscriptionHelper'

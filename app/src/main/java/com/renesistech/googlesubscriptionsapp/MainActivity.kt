@@ -11,7 +11,7 @@ import com.renesistech.subscriptionhelper.SubscriptionResult
 class MainActivity : AppCompatActivity() {
 
     private val base64SecurityKey = "Your google subscription key - Get it from playstore"
-    private val SUBSCRIPTION_SKUS = arrayOf("","")
+    private val SUBSCRIPTION_SKUS = arrayOf("com.monthly","com.yearly")
     private val renesisBillingHelper by lazy { RenesisBillingHelper(this, SUBSCRIPTION_SKUS) }
     private val btnBuy: Button by lazy { findViewById(R.id.btnBuy) }
     private val btnUpdate: Button by lazy { findViewById(R.id.btnUpdate) }
